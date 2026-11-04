@@ -1,1 +1,0 @@
-# Put your resume here as resume.pdf (public/resume.pdf)
