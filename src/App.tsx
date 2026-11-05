@@ -1,4 +1,5 @@
 import { MotionConfig } from 'framer-motion'
+import { Analytics } from '@vercel/analytics/react'
 //import Cursor from './components/Cursor'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -12,5 +13,5 @@ import Footer from './components/Footer'
 export default function App() {
   return (<MotionConfig reducedMotion="user">
     {/* <Cursor /> */}
-    <Navbar /><main><Hero /><About /><Skills /><Projects /><Experience /><Achievements /><Contact /></main><Footer /></MotionConfig>)
+    <Navbar /><main><Hero /><About /><Skills /><Projects /><Experience /><Achievements /><Contact /></main><Footer /><Analytics /></MotionConfig>)
 }
